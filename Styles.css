@@ -1,0 +1,242 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 462px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    color: #FF6B82;
+}
+
+/* Box Styling */
+.box {
+    position: relative; /* Make it a reference for absolute positioning */
+    border: 2px solid #cbcaca; 
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+    height: 74.11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.most-popular {
+    position: absolute;
+    top: -2px; /* Adjusted to align perfectly on the border */
+    right: 10px; /* Moves it towards the right */
+    background: #FF6B82; /* Pink background */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 8px 8px 0 0; /* Curved edges only at the top */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Expanded Box */
+.box.selected {
+    border-color: #ff4081;
+    height: 
+    174.11px ;
+    background-color:#f8f1f2;
+    padding: 20px;
+}
+
+/* Header inside box */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 
+    14px;
+    font-weight: 600;
+}
+
+.labelelemrn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sizeandcolorsection {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.sizeandcolor {
+    font-size: 12px;
+    margin-right: 35px;
+    margin-left: 15px;
+    font-weight:lighter;
+
+
+}
+
+/* Discount and Most Popular Badge */
+.discount {
+    background: #FF6B82;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: lighter;
+    width: 
+    55px;
+    font-size: 12px;
+    margin-left: 10px;
+    height: 17px;
+}
+
+.popular {
+    background: #FF6B82;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Price */
+.price {
+    font-weight: bold;
+    font-size: 14.46px;
+}
+
+/* Content (Hidden initially) */
+.content {
+    display: none;
+}
+
+.labellighter{
+    font-weight: lighter;
+}
+
+/* Show content when box is selected */
+.box.selected .content {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    padding: 12px;
+  
+}
+
+.elestimated {
+    height: 
+    25.31px;
+    width:
+    65.98px
+    ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(201, 199, 199);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.elestimatedee {
+    height: 
+    25.31px;
+    width:
+    72.98px
+    ;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(201, 199, 199);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+
+.standardhedd {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.priceee {
+    font-weight: lighter;
+    color: #868686;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.priceoldnew {
+    display: flex;
+    flex-direction: column;
+}
+
+.secontspacing {
+    margin-top: 8px;
+}
+
+/* Free Delivery */
+.free-delivery {
+    color: #FF6B82;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Total Price */
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background:#FF6B82;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radiocolour {
+    color: #FF6B82;
+}
+
+/* Footer */
+.footer {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    text-align: right;
+}
+
+input[type="radio"] {
+    appearance: none; /* Remove default styling */
+    width: 16px;
+    height: 16px;
+    border: 2px solid #868686;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #FF6B82;
+    border: 5px solid white;
+    box-shadow: 0 0 0 2px #FF6B82;
+}
