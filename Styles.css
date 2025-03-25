@@ -13,7 +13,8 @@ body {
     width: 462px;
     margin: 50px auto;
     background: white;
-    padding: 20px;
+    padding:20px;
+    
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -27,40 +28,109 @@ h2 {
 .box {
     position: relative; /* Make it a reference for absolute positioning */
     border: 2px solid #cbcaca; 
-    padding: 15px;
-    margin-bottom: 10px;
+    
+    margin-bottom: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
     background: white;
-    overflow: hidden;
-    height: 74.11px;
+    overflow:visible;
+    height: 
+    74.11px;
+    width: 381px;
     display: flex;
+    margin-left: 40px;
     flex-direction: column;
     justify-content: center;
+
 }
+
+
+.yaybogo {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+  }
+
+  .line {
+    width: 122px;
+    height: 1px;
+    margin-bottom: 22px;
+    background-color: lightgray;
+}
+
+.bogo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} 
+  
+  .yay {
+    font-size: 1.8em;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .bogo {
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+  }
+
+
+.yaybogo {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
 
 
 
 
 .most-popular {
     position: absolute;
-    top: -2px; /* Adjusted to align perfectly on the border */
-    right: 10px; /* Moves it towards the right */
-    background: #FF6B82; /* Pink background */
-    color: white;
-    font-size: 12px;
+    top: -12px;  /* Adjust based on your design */
+    right: -0px;  /* Adjust based on your design */
+    background: #FF6B82; /* Use your preferred accent color */
+    color:white;
+    padding: 4px 12px;
+    border-radius: 2px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 5px 12px;
-    border-radius: 8px 8px 0 0; /* Curved edges only at the top */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-}
-
+    height: 
+    22px;
+    width: 119px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  
+  /* Add arrow/triangle indicator (optional) */
+  .most-popular::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #FF6B82;
+    border-radius: 2px;
+  }
 /* Expanded Box */
 .box.selected {
-    border-color: #ff4081;
+    border-color: #FF6B82;
     height: 
     174.11px ;
+    width: 342px;
     background-color:#f8f1f2;
     padding: 20px;
 }
