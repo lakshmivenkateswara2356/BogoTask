@@ -5,6 +5,10 @@ body {
     background-color: #f8f8f8;
 }
 
+.sectionsoprt{
+    font-size: 12px;
+}
+
 .container {
     width: 462px;
     margin: 50px auto;
