@@ -61,6 +61,13 @@ h2 {
     font-family: 'Arial Rounded MT Bold', sans-serif;
   }
 
+  .deleverycost {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    justify-content: space-around;
+  }
+
   .line {
     width: 122px;
     margin-top: 50px;
@@ -268,14 +275,14 @@ h2 {
 /* Free Delivery */
 .free-delivery {
     color: #FF6B82;
-    font-weight: bold;
+    font-weight:lighter;
     margin-top: 15px;
 }
 
 /* Total Price */
 .total {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 /* Add to Cart Button */
