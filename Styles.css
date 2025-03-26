@@ -142,6 +142,8 @@ h2 {
     174.11px ;
     width: 342px;
     background-color:#f8f1f2;
+    border-radius: 0px;
+    border-width: 3px;
     padding: 20px;
 }
 
@@ -300,6 +302,7 @@ h2 {
 
 .radiocolour {
     color: #FF6B82;
+    
 }
 
 /* Footer */
@@ -324,5 +327,6 @@ input[type="radio"] {
 input[type="radio"]:checked {
     background-color: #FF6B82;
     border: 5px solid white;
+   
     box-shadow: 0 0 0 2px #FF6B82;
 }
