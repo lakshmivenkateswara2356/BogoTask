@@ -266,6 +266,7 @@ h2 {
 .priceoldnew {
     display: flex;
     flex-direction: column;
+    margin-right: 12px;
 }
 
 .secontspacing {
